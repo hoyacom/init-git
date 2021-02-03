@@ -1,0 +1,9 @@
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+brew "mas"
+cask "onedrive"
+cask "iterm2"
+cask "sublime-text"
+cask "clipy"
+mas "Enpass", id: 732710998
