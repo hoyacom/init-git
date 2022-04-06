@@ -17,3 +17,5 @@ brew bundle --file=./Default-Brewfile-1st
 ./Default_init_run_app_first.sh &
 
 brew bundle --file=./Default-Brewfile-2nd
+
+./Default_init_run_app_2nd.sh
