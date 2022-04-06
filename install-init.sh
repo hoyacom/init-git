@@ -19,3 +19,7 @@ brew bundle --file=./Default-Brewfile-1st
 brew bundle --file=./Default-Brewfile-2nd
 
 ./Default_init_run_app_2nd.sh
+
+./keybinding-setting.sh
+
+./system-setting.sh

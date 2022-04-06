@@ -1,3 +1,4 @@
+mas "Enpass", id: 732710998
 cask "termhere"
 brew "wget"
 brew "zsh"
@@ -6,7 +7,7 @@ brew "git-flow"
 brew "git-lfs"
 brew "tig"
 cask "appcleaner"
-cask "zulu11"
+cask "zulu17"
 brew "exa"
 brew "expect"
 brew "fasd"
