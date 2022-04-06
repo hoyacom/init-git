@@ -14,6 +14,6 @@ cp ./dot.mackup.cfg ~/.mackup.cfg
 
 brew bundle --file=./Default-Brewfile-1st
 
-./Default_System_init_run_app_first.sh &
+./Default_init_run_app_first.sh &
 
 brew bundle --file=./Default-Brewfile-2nd
