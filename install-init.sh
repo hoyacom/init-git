@@ -12,13 +12,17 @@ fi
 
 cp ./dot.mackup.cfg ~/.mackup.cfg
 
-brew bundle --file=./Default-Brewfile-1st
+brew bundle --file=./Brewfile-1st
 
-./Default_init_run_app_first.sh &
+./run_app_first.sh &
 
-brew bundle --file=./Default-Brewfile-2nd
+brew bundle --file=./Brewfile-2nd
 
-./Default_init_run_app_2nd.sh
+./run_app_2nd.sh &
+
+brew bundle --file=./Brewfile-3rd
+
+./run_app_3rd.sh &
 
 ./keybinding-setting.sh
 

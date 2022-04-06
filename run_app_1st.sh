@@ -1,0 +1,1 @@
+open /Applications/OneDrive.app

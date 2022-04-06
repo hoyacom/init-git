@@ -1,0 +1,5 @@
+mas "Enpass", id: 732710998
+cask "clipy"
+cask "appcleaner"
+cask "sublime-text"
+brew "mackup"
