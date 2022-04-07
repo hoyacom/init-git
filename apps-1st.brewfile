@@ -1,5 +1,1 @@
-tap "homebrew/bundle"
-tap "homebrew/core"
-cask "iterm2"
-cask "onedrive"
-brew "mas"
+mas "Enpass", id: 732710998

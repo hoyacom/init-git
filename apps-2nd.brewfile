@@ -1,5 +1,6 @@
-mas "Enpass", id: 732710998
+tap "homebrew/bundle"
+tap "homebrew/core"
+cask "iterm2"
 cask "clipy"
 cask "appcleaner"
-cask "sublime-text"
-brew "mackup"
+cask "termhere"

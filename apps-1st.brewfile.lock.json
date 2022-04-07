@@ -1,0 +1,22 @@
+{
+  "entries": {
+    "mas": {
+      "Enpass": {
+        "id": "732710998",
+        "version": "6.7.4"
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "big_sur": {
+        "HOMEBREW_VERSION": "3.4.5",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "33bd21bfd9879ee4d0f43b35137cc867e3515d29",
+        "CLT": "13.2.0.0.1.1638488800",
+        "Xcode": "13.2.1",
+        "macOS": "11.6.5"
+      }
+    }
+  }
+}

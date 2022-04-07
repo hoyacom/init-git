@@ -1,1 +1,1 @@
-open /Applications/OneDrive.app
+open /Applications/Enpass.app
