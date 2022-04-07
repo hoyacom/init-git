@@ -12,15 +12,15 @@ fi
 
 cp ./dot.mackup.cfg ~/.mackup.cfg
 
-brew bundle --file=./Brewfile-1st
+brew bundle --file=./apps-1st.brewfile
 
 ./run_app_first.sh &
 
-brew bundle --file=./Brewfile-2nd
+brew bundle --file=./apps-2nd.brewfile
 
 ./run_app_2nd.sh &
 
-brew bundle --file=./Brewfile-3rd
+brew bundle --file=./apps-3rd.brewfile
 
 ./run_app_3rd.sh &
 
