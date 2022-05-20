@@ -13,12 +13,16 @@ osascript -e 'display notification "Did you sign in to the App Store?"'
 
 if ! which brew
 then
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 brew install onedrive --cask
 open /Applications/OneDrive.app
 brew install mas
+brew install homebrew/cask-drivers/synology-drive
+open "/Applications/Synology Drive Client.app"
+osascript -e 'display notification "check Advaced Option about dot file sync"'
+
 #----------------------------  //init ------------------------
 
 ./keybinding-setting.sh

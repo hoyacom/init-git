@@ -1,0 +1,50 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/bundle": {
+        "revision": "92cfb59945e1a229d67e7c79d9c6eab93ae58525"
+      },
+      "homebrew/core": {
+        "revision": "deafcf6ae27d4cbb12373f28f8b7b1979e90f2bd"
+      }
+    },
+    "cask": {
+      "iterm2": {
+        "version": "3.4.15",
+        "options": {
+          "full_name": "iterm2"
+        }
+      },
+      "clipy": {
+        "version": "1.2.1",
+        "options": {
+          "full_name": "clipy"
+        }
+      },
+      "appcleaner": {
+        "version": "3.6.4,4270",
+        "options": {
+          "full_name": "appcleaner"
+        }
+      },
+      "termhere": {
+        "version": "1.2.1",
+        "options": {
+          "full_name": "termhere"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "monterey": {
+        "HOMEBREW_VERSION": "3.4.11",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "deafcf6ae27d4cbb12373f28f8b7b1979e90f2bd",
+        "CLT": "13.0.0.0.1.1627064638",
+        "Xcode": "13.2.1",
+        "macOS": "12.4"
+      }
+    }
+  }
+}
